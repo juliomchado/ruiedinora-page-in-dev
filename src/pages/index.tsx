@@ -1,9 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import style from './home.module.scss';
 import Link from 'next/link';
-// import Image from 'next/image'
-// import supermarketLogo from '../../public/images/market_logo.svg';
-// import adx3Logo from '../../public/images/adx3_logo.svg';
 
 export default function Home() {
   return (
