@@ -1,0 +1,125 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    max-width: 100rem;
+    height: 47.9rem;
+    margin: 50% 3.2rem;
+    border-radius: 5px;
+    padding: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+
+    -webkit-box-shadow: 0px 5px 18px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 5px 18px 5px rgba(0, 0, 0, 0.25);
+
+    .supermarket_logo {
+        width: 31rem;
+        height: 16.5rem;
+
+        margin-bottom: 4rem;
+    }
+
+    h1 {
+        font-size: 3.4rem;
+        font-weight: 400;
+        
+        text-align: center;
+        margin-bottom: 1.6rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+        font-weight: 400;
+
+        text-align: center;
+        margin-bottom: 3.2rem;
+    }
+
+    div {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+
+        .adx_logo {
+            width: 11.4rem;
+            height: 4.8rem;
+        }
+    }
+}
+
+@media (max-width: 860px) {
+    .content {
+        height: auto;
+        padding: 3.2rem;
+
+        .supermarket_logo {
+            width: 24rem;
+            height: 16rem;
+
+            margin-bottom: 4rem;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 400;
+            margin-bottom: 1.6rem;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 400;
+
+            text-align: center;
+            margin-bottom: 3.2rem;
+        }
+
+        .adx_logo {
+            width: 3rem;
+            height: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .content {
+
+        padding: 3.2rem;
+
+        .supermarket_logo {
+            width: 16rem;
+            height: 8rem;
+
+            margin-bottom: 4rem;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 400;
+            margin-bottom: 1.6rem;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 400;
+
+            text-align: center;
+            margin-bottom: 3.2rem;
+        }
+
+        .adx_logo {
+            width: 6rem;
+            height: 2.4rem;
+        }
+    }
+}
+
